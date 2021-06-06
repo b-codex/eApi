@@ -5,16 +5,7 @@ from flask_restplus import Api, Resource, fields
 from flask_mobility import Mobility
 from firebase_admin import credentials, firestore, initialize_app
 
-
-firebaseConfig = {
-    "apiKey": "AIzaSyDnN_lXnJRwcZrO3SBIbINjR20iJ5XhJyQ",
-    "authDomain": "temaribet-af8a0.firebaseapp.com",
-    "databaseURL": "https://temaribet-af8a0-default-rtdb.firebaseio.com",
-    "projectId": "temaribet-af8a0",
-    "storageBucket": "temaribet-af8a0.appspot.com",
-    "messagingSenderId": "361477504348",
-    "appId": "1:361477504348:web:bb1f559f4687130e691599"
-}
+#api key has been removed
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 
